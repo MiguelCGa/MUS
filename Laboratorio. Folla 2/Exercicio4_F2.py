@@ -5,6 +5,7 @@ import soundfile as sf
 import sys
 import numpy as np
 import kbhit_pygame as kbhit
+from Exercicio1_F2 import Osc
 
 SRATE = 48000
 CHUNK = 1024
@@ -12,38 +13,42 @@ CHUNK = 1024
 last=0
 class OscStereo:
     def __init__(self, freq, vol, phase):
-        self.freq = freq
-        self.vol = vol
-        self.phase = phase
+        self.oscL = Osc(freq, vol, phase)
+        self.oscR = Osc(freq, vol, phase)
+        self.stereoDial = 0
     
     def next(self):
-        global last # para modificar la var last global (y no una local)
-        # el arange se genera desde last en adelante:
-        # arange(last, last+CHUNK) -> [last,last+1,last+2...
-        # y sumamos last
-        data1 = self.vol*np.sin(2*np.pi*(np.arange(last,last+CHUNK))*self.freq/SRATE)
-        data2 = self.vol*np.sin(2*np.pi*(np.arange(last,last+CHUNK))*self.freq/SRATE)
-
-        stereoData = np.column_stack((data1, data2))
-        last += CHUNK # actualizamos ultimo generado
+        volL = 1
+        volR = 1
+        if (self.stereoDial > 0):
+            volL = 0
+        elif (self.stereoDial < 0):
+            volR = 0
+        
+        stereoData = np.column_stack((volL*self.oscL.next(), volR*self.oscR.next()))
         return np.float32(stereoData)
-
+                          
+    def setStereoDial(self, dial):
+        if (dial > self.stereoDial):
+            self.stereoDial = min(dial, 1)
+        else:
+            self.stereoDial = max(dial, -1)
+            
     def getFreq(self):
-        return self.freq
+        return self.oscL.getFreq()
     def setFreq(self, freq):
-        self.freq = freq
+        self.oscL.setFreq(freq)
+        self.oscR.setFreq(freq)
 
     def getVol(self):
-        return self.vol
+        return self.oscL.getVol()
     def setVol(self, vol):
-        if (vol > self.vol):
-            self.vol = min(vol+self.vol, 1)
-        else:
-            max(vol+self.vol, 0)
+        self.oscL.setVol(vol)
+        self.oscR.setVol(vol)
             
 
 def testOsc(osc):
-    stream = sd.OutputStream(samplerate=SRATE, blocksize=CHUNK, channels=1)
+    stream = sd.OutputStream(samplerate=SRATE, blocksize=CHUNK, channels=2)
     stream.start()
     kb = kbhit.KBHit()
     key = kb.getKey()
@@ -60,7 +65,13 @@ def testOsc(osc):
                 osc.setVol(osc.getVol() * 2)
             elif (key == "v"):
                 osc.setVol(osc.getVol() / 2)
-    
+            elif (key == "L" or key == "l"):
+                osc.setStereoDial(-1)
+            elif (key == "R" or key == "r"):
+                osc.setStereoDial(1)
+            elif (key == "C" or key == "c"):
+                osc.setStereoDial(0)
+
     kb.quit()
     stream.stop()
     stream.close()
@@ -68,6 +79,6 @@ def testOsc(osc):
 
 
 #%%
-osc = Osc(261.63, 1, 0)
+osc = OscStereo(261.63, 1, 0)
 
 testOsc(osc)

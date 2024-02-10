@@ -36,9 +36,9 @@ class Osc:
         return self.vol
     def setVol(self, vol):
         if (vol > self.vol):
-            self.vol = min(vol+self.vol, 1)
+            self.vol = min(vol, 1)
         else:
-            max(vol+self.vol, 0)
+            self.vol = max(vol, 0)
             
 
 def testOsc(osc):
