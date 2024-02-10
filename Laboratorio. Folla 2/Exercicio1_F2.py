@@ -5,7 +5,7 @@
 from Osc import Osc
 import sounddevice as sd
 import soundfile as sf
-import kbhit
+import kbhit_pygame as kbhit
 
 SRATE = 48000
 CHUNK = 1024
