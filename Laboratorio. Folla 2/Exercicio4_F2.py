@@ -10,7 +10,7 @@ SRATE = 48000
 CHUNK = 1024
 
 last=0
-class Osc:
+class OscStereo:
     def __init__(self, freq, vol, phase):
         self.freq = freq
         self.vol = vol
@@ -21,12 +21,13 @@ class Osc:
         # el arange se genera desde last en adelante:
         # arange(last, last+CHUNK) -> [last,last+1,last+2...
         # y sumamos last
-        data = self.vol*np.sin(2*np.pi*(np.arange(last,last+CHUNK))*self.freq/SRATE)
+        data1 = self.vol*np.sin(2*np.pi*(np.arange(last,last+CHUNK))*self.freq/SRATE)
+        data2 = self.vol*np.sin(2*np.pi*(np.arange(last,last+CHUNK))*self.freq/SRATE)
 
+        stereoData = np.column_stack((data1, data2))
         last += CHUNK # actualizamos ultimo generado
-        return np.float32(data)
+        return np.float32(stereoData)
 
-    
     def getFreq(self):
         return self.freq
     def setFreq(self, freq):
