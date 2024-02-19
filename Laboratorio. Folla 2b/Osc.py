@@ -39,3 +39,8 @@ class Osc:
             self.vol = min(vol, 1)
         else:
             self.vol = max(vol, 0)
+    def noteOn(self):
+        self.vol = 1
+    def noteOff(self):
+        self.vol = 0
+    
