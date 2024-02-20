@@ -1,5 +1,4 @@
 #%%
-#ddiegoooooooooo
 import kbhit_pygame as kbhit
 import sounddevice as sd
 import soundfile as sf
@@ -26,17 +25,42 @@ KEYS = {
     "u": 23.0/8.0,
 }
 
+# KEYS_DOWN = {
+#     "z_up": False,
+#     "x_up": False,
+#     "c_up": False,
+#     "v_up": False,
+#     "b_up": False,
+#     "n_up": False,
+#     "m_up": False,
+#     "q_up": False,
+#     "w_up": False,
+#     "e_up": False,
+#     "r_up": False,
+#     "t_up": False,
+#     "y_up": False,
+#     "u_up": False,
+# }
+
 class NotaPiano:
     def __init__(self, data, relFreq):
-        self.stream = sd.OutputStream(samplerate=SRATE, blocksize=CHUNK, channels=1)
         self.note = sc.signal.resample(data, (int)(len(data)/relFreq))
+        self.stream = sd.OutputStream(samplerate=SRATE, blocksize=CHUNK, channels=1)
+        self.stream.start()
+        self.last = len(self.note)
 
     def __del__(self):
         self.stream.stop()
         self.stream.close()
 
+    def next(self):
+        if (self.last < len(self.note)):
+            self.sample = self.note[self.last:self.last+CHUNK]
+            self.last += CHUNK
+            self.stream.write(self.sample)
+
     def play(self):
-        self.stream.write(self.note)
+        self.last = 0
 
 class Piano:
     def __init__(self):
@@ -46,26 +70,26 @@ class Piano:
         for key in KEYS:
             self.notes[key] = NotaPiano(self.data, KEYS[key])
 
+    def next(self):
+        for key in KEYS:
+            self.notes[key].next()
 
     def play(self, key):
         self.notes[key].play()
 
 
 
-
-
-
-
 def playPiano():
     piano = Piano()
     kb = kbhit.KBHit()
+    prevKey = ''
     key = ''
     while (key != "escape"):
         key = kb.getKey()
-        if (not key):
-            key= ' '
         if key in KEYS:
             piano.play(key)
+        piano.next()
+        
     kb.quit()
 
 playPiano()
