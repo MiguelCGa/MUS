@@ -1,5 +1,5 @@
 #%%
-
+#ddiegoooooooooo
 import kbhit_pygame as kbhit
 import sounddevice as sd
 import soundfile as sf
@@ -26,21 +26,29 @@ KEYS = {
     "u": 23.0/8.0,
 }
 
-class Piano:
-    def __init__(self):
-        self.pianoSound = 'piano.wav'
-        self.data, self.fs = sf.read(self.pianoSound, dtype='float32')
+class NotaPiano:
+    def __init__(self, data, relFreq):
         self.stream = sd.OutputStream(samplerate=SRATE, blocksize=CHUNK, channels=1)
+        self.note = sc.signal.resample(data, (int)(len(data)/relFreq))
 
     def __del__(self):
         self.stream.stop()
         self.stream.close()
 
-    def playKey(self, key):
-        newnote = sc.signal.resample(self.data, (int)(len(self.data)/KEYS[key]))
-        #sd.playasync(newnote, self.fs)
-        self.stream.write(newnote)
+    def play(self):
+        self.stream.write(self.note)
 
+class Piano:
+    def __init__(self):
+        self.pianoSound = 'piano.wav'
+        self.data, self.fs = sf.read(self.pianoSound, dtype='float32')
+        self.notes = {}
+        for key in KEYS:
+            self.notes[key] = NotaPiano(self.data, KEYS[key])
+
+
+    def play(self, key):
+        self.notes[key].play()
 
 
 
@@ -57,7 +65,7 @@ def playPiano():
         if (not key):
             key= ' '
         if key in KEYS:
-            piano.playKey(key)
+            piano.play(key)
     kb.quit()
 
 playPiano()

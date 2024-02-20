@@ -10,7 +10,7 @@ SRATE = 48000
 CHUNK = 1024
 
 class Osc:
-    def __init__(self, freq, vol, phase):
+    def __init__(self, freq, vol = 1, phase = 0):
         self.freq = freq
         self.vol = vol
         self.phase = phase
