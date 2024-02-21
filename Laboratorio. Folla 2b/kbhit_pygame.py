@@ -3,7 +3,7 @@ import pygame
 class KBHit:
     def __init__(self) -> None:
         pygame.init()
-        pygame.key.set_repeat(100) # repeticion de pulsación
+        pygame.key.set_repeat(0) # repeticion de pulsación
         pygame.display.set_mode((300, 200)) # ventana de pygame
         pygame.display.set_caption('Keyboard input control')
         for event in pygame.event.get(): pass # limpiamos posible input previo
