@@ -4,7 +4,7 @@
 import kbhit_pygame as kbhit
 import sounddevice as sd
 import soundfile as sf
-import scipy as sc
+from scipy import signal
 import numpy as np
 
 SRATE = 48000
@@ -20,17 +20,17 @@ KEYS = {
     "m": 15.0/8.0,
     "q": 2.0,
     "w": 17.0/8.0,
-    "e": 9.0/4.0,
-    "r": 7.0/4.0,
-    "t": 5.0/2.0,
-    "y": 8.0/3.0,
-    "u": 23.0/8.0,
+    "e": 10.0/4.0,
+    "r": 8.0/3.0,
+    "t": 6.0/2.0,
+    "y": 10.0/3.0,
+    "u": 30.0/8.0,
 }
 
 
 class NotaPiano:
     def __init__(self, data, relFreq):
-        self.note = sc.signal.resample(data, (int)(len(data)/relFreq))
+        self.note = signal.resample(data, (int)(len(data)/relFreq))
         self.stream = sd.OutputStream(samplerate=SRATE, blocksize=CHUNK, channels=1)
         self.stream.start()
         self.last = len(self.note)
@@ -78,3 +78,4 @@ def playPiano():
     kb.quit()
 
 playPiano()
+# %%
