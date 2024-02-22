@@ -1,3 +1,6 @@
+# Diego López Balboa
+# Miguel Curros García
+
 # kbhit.py: sencillo módulo para lectura no bloqueante de caracteres simples y teclase de cursor
 import pygame
 class KBHit:

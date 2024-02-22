@@ -1,3 +1,5 @@
+# Diego López Balboa
+# Miguel Curros García
 #%%
 from Osc import Osc
 import numpy as np

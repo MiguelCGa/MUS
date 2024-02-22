@@ -1,3 +1,5 @@
+# Diego López Balboa
+# Miguel Curros García
 #%%
 import kbhit_pygame as kbhit
 import sounddevice as sd
@@ -25,22 +27,6 @@ KEYS = {
     "u": 23.0/8.0,
 }
 
-# KEYS_DOWN = {
-#     "z_up": False,
-#     "x_up": False,
-#     "c_up": False,
-#     "v_up": False,
-#     "b_up": False,
-#     "n_up": False,
-#     "m_up": False,
-#     "q_up": False,
-#     "w_up": False,
-#     "e_up": False,
-#     "r_up": False,
-#     "t_up": False,
-#     "y_up": False,
-#     "u_up": False,
-# }
 
 class NotaPiano:
     def __init__(self, data, relFreq):
@@ -82,14 +68,13 @@ class Piano:
 def playPiano():
     piano = Piano()
     kb = kbhit.KBHit()
-    prevKey = ''
     key = ''
     while (key != "escape"):
         key = kb.getKey()
         if key in KEYS:
             piano.play(key)
         piano.next()
-        
+
     kb.quit()
 
 playPiano()
