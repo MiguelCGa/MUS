@@ -15,7 +15,7 @@ def motion(event):
 def play(stream, oscil, root):
     global freq, amp
     oscil.setFrec(freq)
-    oscil.vol = amp
+    oscil.setVol(amp)
     chunk = oscil.getChunk()
     stream.write((np.float32)(chunk))
     root.after(10, play, stream, oscil, root)

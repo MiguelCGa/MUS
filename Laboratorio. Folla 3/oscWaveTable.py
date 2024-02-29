@@ -5,7 +5,9 @@ class OscWaveTable:
     def __init__(self, frec, vol, size):
         self.frec = frec
         self.vol = vol
+        self.targetVol = vol
         self.size = size
+        self.interpRate=.05
         # un ciclo completo de seno en [0,2pi)
         t = np.linspace(0, 1, num=size)
         self.waveTable = np.sin(2 * np.pi * t)
@@ -18,13 +20,15 @@ class OscWaveTable:
         self.step = self.size/(SRATE/self.frec)
     def getFrec(self):
         return self.frec
+    def setVol(self, vol):
+        self.targetVol = vol
     def getChunk(self):
         samples = np.zeros(CHUNK,dtype=np.float32)
         cont = 0
-
+        if (self.vol != self.targetVol):
+            self.vol = self.vol + ((self.targetVol - self.vol)*self.interpRate)
         while cont < CHUNK:
             self.fase = (self.fase + self.step) % self.size
-            # con truncamiento, sin redondeo
             # samples[cont] = self.waveTable[int(self.fase)]
             # con redondeo
             #x = round(self.fase) % self.size
