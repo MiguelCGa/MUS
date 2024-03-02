@@ -45,3 +45,4 @@ class SynthFM:
 
     def setBeta(self,val): 
         self.beta = val
+        self.signal.setBeta(val)
