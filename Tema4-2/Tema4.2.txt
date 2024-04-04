@@ -1,0 +1,6 @@
+Diego López Balboa
+Miguel Curros García
+
+En el punto 10 hemos grabado la voz de Diego haciendo eco de la guitarra eléctrica al principio de la canción.
+
+Hemos tenido problemas porque el layout por defecto de reaper en nuestra version no mostraba el boton trim que permite hacer automatizaciones de efectos en las pistas.
