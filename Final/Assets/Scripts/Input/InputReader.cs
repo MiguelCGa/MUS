@@ -29,7 +29,15 @@ public class InputReader : MonoBehaviour, Controls.IPianoActions
 
     public void OnDo(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        Debug.Log("Do");
+        if(context.performed)
+        {
+            Debug.Log("Pressed");
+        }
+        if (context.canceled)
+        {
+            Debug.Log("Released");
+        }
     }
 
     public void OnDo1(InputAction.CallbackContext context)
