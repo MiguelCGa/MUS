@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,6 +13,9 @@ public class UIManager : MonoBehaviour
             prefab = menuPrefab;
             instance = null;
             closeFunction = null;
+        }
+        ~DynamicMenu() {
+            closeFunction?.Invoke();
         }
         public void Open(Action onClose) {
             if (prefab != null && instance == null) {
@@ -33,19 +35,13 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    static GameObject instance = null;
-    public static UIManager Instance = null;
-
-    [SerializeField]
-    string gameScene = "Main";
-    [SerializeField]
-    string mainMenuScene = "MainMenu";
-
     DynamicMenu options = null;
     DynamicMenu pause = null;
     [SerializeField] GameObject optionsPrefab;
     [SerializeField] GameObject pausePrefab;
 
+    static GameObject instance = null;
+    public static UIManager Instance = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -62,11 +58,11 @@ public class UIManager : MonoBehaviour
     }
 
     public void StartGame() {
-        SceneManager.LoadScene(gameScene);
+        GameManager.Instance.StartGame();
     }
 
     public void QuitGame() {
-        Application.Quit();
+        GameManager.Instance.QuitGame();
     }
 
     public void OpenOptions(Action onOptionsClose = null) {
@@ -86,6 +82,6 @@ public class UIManager : MonoBehaviour
     }
 
     public void GoToMainMenu() {
-        SceneManager.LoadScene(mainMenuScene);
+        GameManager.Instance.GoToMainMenu();
     }
 }
