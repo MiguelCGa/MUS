@@ -1,0 +1,274 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Piano",
+            "id": "6ba7614d-4ce6-48f5-b5f2-bc9bfcc8ff5f",
+            "actions": [
+                {
+                    "name": "Do",
+                    "type": "Button",
+                    "id": "e96165fb-b7a9-4a35-a637-210ba87ccad0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DoSust",
+                    "type": "Button",
+                    "id": "51791aa7-6481-4afc-b3e6-31604c072a47",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Re",
+                    "type": "Button",
+                    "id": "7b741539-949e-4f7c-9783-c9d2b3298078",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReSust",
+                    "type": "Button",
+                    "id": "96e1930b-e28f-4c6f-a78f-58799ef408a9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mi",
+                    "type": "Button",
+                    "id": "317d1ca6-4261-417a-b0b7-7e665a34070f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Fa",
+                    "type": "Button",
+                    "id": "5b7a97d9-1f6b-4172-8534-24f216a4f45c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FaSust",
+                    "type": "Button",
+                    "id": "c28fa140-25ab-4a5d-9b56-d92198f2858c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sol",
+                    "type": "Button",
+                    "id": "4a823ff5-d9fd-471d-8216-b2c624f30d38",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SolSust",
+                    "type": "Button",
+                    "id": "1b4a068a-1eb2-40bd-8679-a920ecb67b35",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "La",
+                    "type": "Button",
+                    "id": "0bad5f2c-c1a9-40a4-aa50-24268d9a02b6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LaSust",
+                    "type": "Button",
+                    "id": "2318fe9b-c6d0-40bf-ae41-cb77fa8f8abf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Si",
+                    "type": "Button",
+                    "id": "be139b7b-2efb-466d-96fb-601dbf591c8f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Do1",
+                    "type": "Button",
+                    "id": "4634cd91-06d0-4630-ba97-c9ccc99ce8cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6d22dd50-47ae-49f3-bf5b-1ffaf0c7e041",
+                    "path": "<MidiDevice>/note060",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Do",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c6119fe3-a5ff-41e5-87bc-05d44e31a4fb",
+                    "path": "<MidiDevice>/note061",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DoSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e9119f6-0e03-4c86-b0ef-8ada49eea184",
+                    "path": "<MidiDevice>/note062",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Re",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "146ff1dd-4b0f-435a-b77b-a1aadac547df",
+                    "path": "<MidiDevice>/note063",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df3cc9e0-ec90-4c60-9b7d-a887ae109605",
+                    "path": "<MidiDevice>/note064",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mi",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "699c4db2-5bf7-4888-b3d6-aa65174b18c9",
+                    "path": "<MidiDevice>/note065",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fa",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "735e0ad3-0866-4bbe-893d-126c794deec8",
+                    "path": "<MidiDevice>/note066",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "48f10cf8-f4cf-4833-b837-6a805c5e5c76",
+                    "path": "<MidiDevice>/note067",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sol",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0579c596-ff66-447f-ae4d-12ff1c469b35",
+                    "path": "<MidiDevice>/note068",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SolSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b1af0f0-b4a1-4fb3-a0aa-84d2fa964d83",
+                    "path": "<MidiDevice>/note069",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "La",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "03683f21-16a5-4fed-abb7-8ebb2ff50897",
+                    "path": "<MidiDevice>/note071",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Si",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "473bdf3d-20dd-4713-9c9b-4dbd7b2aa0d1",
+                    "path": "<MidiDevice>/note072",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Do1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b63ef39-d9d8-44ba-b9e9-e65aa8bb4306",
+                    "path": "<MidiDevice>/note070",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LaSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
