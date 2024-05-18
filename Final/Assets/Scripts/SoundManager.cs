@@ -38,4 +38,8 @@ public class SoundManager : MonoBehaviour
     {
         notes[(int)note].start();
     }
+    public void ReleaseNote(Notes note)
+    {
+        notes[(int)note].stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
 }

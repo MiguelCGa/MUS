@@ -33,7 +33,6 @@ public class InputReader : MonoBehaviour, Controls.IPianoActions
 
     public void OnDo(InputAction.CallbackContext context)
     {
-        Debug.Log("Do");
         if(context.performed)
         {
             onKeyPressed?.Invoke(Notes.Do);
@@ -46,61 +45,145 @@ public class InputReader : MonoBehaviour, Controls.IPianoActions
 
     public void OnDo1(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.DoUp);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.DoUp);
+        }
     }
 
     public void OnDoSust(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.DoSust);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.DoSust);
+        }
     }
 
     public void OnFa(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.Fa);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.Fa);
+        }
     }
 
     public void OnFaSust(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.FaSust);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.FaSust);
+        }
     }
 
     public void OnLa(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.La);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.La);
+        }
     }
 
     public void OnLaSust(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.LaSust);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.LaSust);
+        }
     }
 
     public void OnMi(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.Mi);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.Mi);
+        }
     }
 
     public void OnRe(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.Re);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.Re);
+        }
     }
 
     public void OnReSust(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.ReSust);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.ReSust);
+        }
     }
 
     public void OnSi(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.Si);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.Si);
+        }
     }
 
     public void OnSol(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.Sol);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.Sol);
+        }
     }
 
     public void OnSolSust(InputAction.CallbackContext context)
     {
-        throw new System.NotImplementedException();
+        if (context.performed)
+        {
+            onKeyPressed?.Invoke(Notes.SolSust);
+        }
+        if (context.canceled)
+        {
+            onKeyReleased?.Invoke(Notes.SolSust);
+        }
     }
 }

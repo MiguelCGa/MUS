@@ -416,7 +416,7 @@ MonoBehaviour:
   - {fileID: -5730883755523508440}
   StringsBanks:
   - {fileID: -5842731886171018358}
-  cacheTime: 638516266029444524
+  cacheTime: 638516328293028171
   cacheVersion: 131618
 --- !u!114 &5998866940834257
 MonoBehaviour:
@@ -697,10 +697,10 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Instrument.bank
   Name: Instrument
   StudioPath: bank:/Instrument
-  lastModified: 638516266029281788
+  lastModified: 638516328293028171
   FileSizes:
   - Name: Desktop
-    Value: 114048
+    Value: 599360
   Exists: 1
 --- !u!114 &7244904074185519152
 MonoBehaviour:

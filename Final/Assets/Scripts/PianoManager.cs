@@ -10,6 +10,7 @@ public class PianoManager : MonoBehaviour
         soundManager = GetComponent<SoundManager>();
 
         InputReader.Instance.onKeyPressed += PlayKey;
+        InputReader.Instance.onKeyReleased += ReleaseKey;
     }
 
     private void PlayKey(Notes note)
@@ -18,6 +19,6 @@ public class PianoManager : MonoBehaviour
     }
     private void ReleaseKey(Notes note)
     {
-        //soundManager.PlayNote(note);
+        soundManager.ReleaseNote(note);
     }
 }
