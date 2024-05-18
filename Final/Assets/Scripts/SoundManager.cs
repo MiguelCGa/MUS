@@ -4,28 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
-
-public enum Notes
-{
-    Do,
-    DoSust,
-    Re,
-    ReSust,
-    Mi,
-    Fa,
-    FaSust,
-    Sol,
-    SolSust,
-    La,
-    LaSust,
-    Si,
-    DoUp,
-    NONE
-}
+using System.Collections;
 
 public class SoundManager : MonoBehaviour
 {
     private List<EventInstance> notes;
+    private List<EventInstance> playingNotes;
 
     void Start()
     {
