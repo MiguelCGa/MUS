@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638516479461459740
+  lastModified: 638516657034764190
   FileSizes:
   - Name: Desktop
     Value: 1222
@@ -135,7 +135,7 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638516479461511232
+  lastModified: 638516657034784707
   FileSizes:
   - Name: Desktop
     Value: 1566
@@ -388,33 +388,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-4253086810817171026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MelodyNahia
-  m_EditorClassIdentifier: 
-  Path: event:/MelodyNahia
-  Guid:
-    Data1: 2000642518
-    Data2: 1148754154
-    Data3: -421974593
-    Data4: -1256360396
-  Banks:
-  - {fileID: 7316831644809553479}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-4148507151692985661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,33 +440,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-4084169148765904680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MelodyPablo
-  m_EditorClassIdentifier: 
-  Path: event:/MelodyPablo
-  Guid:
-    Data1: 1637376433
-    Data2: 1093937181
-    Data3: 187141257
-    Data4: 1011099344
-  Banks:
-  - {fileID: 7316831644809553479}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-4077439548022192442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,7 +828,7 @@ MonoBehaviour:
   - {fileID: -6540859655772460264}
   - {fileID: 4380295293672504592}
   - {fileID: -8131375892406375104}
-  - {fileID: 7316831644809553479}
+  - {fileID: 2448170037309944069}
   EditorEvents:
   - {fileID: 1389521476948008871}
   - {fileID: 4689917870001371420}
@@ -897,17 +843,17 @@ MonoBehaviour:
   - {fileID: 2324497138272910959}
   - {fileID: -252968487196565747}
   - {fileID: 100714715604976996}
-  - {fileID: 7790383111351608589}
-  - {fileID: -4084169148765904680}
-  - {fileID: 4411631247981859081}
-  - {fileID: -4253086810817171026}
+  - {fileID: 4690704984929334948}
+  - {fileID: 6659691100052780606}
+  - {fileID: 615904755781370401}
+  - {fileID: 5478856900724294566}
   EditorParameters:
   - {fileID: 7116808592051187447}
   MasterBanks:
   - {fileID: -8131375892406375104}
   StringsBanks:
   - {fileID: -6540859655772460264}
-  cacheTime: 638516479466433424
+  cacheTime: 638516657039121425
   cacheVersion: 131618
 --- !u!114 &5998866940834257
 MonoBehaviour:
@@ -989,6 +935,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &615904755781370401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MelodyRo
+  m_EditorClassIdentifier: 
+  Path: event:/MelodyRo
+  Guid:
+    Data1: 1245148624
+    Data2: 1259974389
+    Data3: -239734084
+    Data4: 1689251847
+  Banks:
+  - {fileID: 2448170037309944069}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1389521476948008871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,6 +1094,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
+--- !u!114 &2448170037309944069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Melodies.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FModProject/Project/Build/Desktop/Melodies.bank
+  Name: Melodies
+  StudioPath: bank:/Melodies
+  lastModified: 638516657039121425
+  FileSizes:
+  - Name: Desktop
+    Value: 212576
+  Exists: 1
 --- !u!114 &2848479086786981585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1268,38 +1261,11 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Instrument.bank
   Name: Instrument
   StudioPath: bank:/Instrument
-  lastModified: 638516479461110001
+  lastModified: 638516657034591374
   FileSizes:
   - Name: Desktop
     Value: 2214944
   Exists: 1
---- !u!114 &4411631247981859081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MelodyRo
-  m_EditorClassIdentifier: 
-  Path: event:/MelodyRo
-  Guid:
-    Data1: 1245148624
-    Data2: 1259974389
-    Data3: -239734084
-    Data4: 1689251847
-  Banks:
-  - {fileID: 7316831644809553479}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &4444195017629344735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1352,6 +1318,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
+--- !u!114 &4690704984929334948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MelodyLagaltijos
+  m_EditorClassIdentifier: 
+  Path: event:/MelodyLagaltijos
+  Guid:
+    Data1: 1139438200
+    Data2: 1227728294
+    Data3: 267878800
+    Data4: 2136998448
+  Banks:
+  - {fileID: 2448170037309944069}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &4994090512841780349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1380,6 +1373,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &5478856900724294566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MelodyNahia
+  m_EditorClassIdentifier: 
+  Path: event:/MelodyNahia
+  Guid:
+    Data1: 2000642518
+    Data2: 1148754154
+    Data3: -421974593
+    Data4: -1256360396
+  Banks:
+  - {fileID: 2448170037309944069}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &5884397913553859214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1428,6 +1448,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &6659691100052780606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MelodyPablo
+  m_EditorClassIdentifier: 
+  Path: event:/MelodyPablo
+  Guid:
+    Data1: 1637376433
+    Data2: 1093937181
+    Data3: 187141257
+    Data4: 1011099344
+  Banks:
+  - {fileID: 2448170037309944069}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6951167433901617478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1524,53 +1571,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &7316831644809553479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Melodies.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FModProject/Project/Build/Desktop/Melodies.bank
-  Name: Melodies
-  StudioPath: bank:/Melodies
-  lastModified: 638516479466433424
-  FileSizes:
-  - Name: Desktop
-    Value: 212576
-  Exists: 1
---- !u!114 &7790383111351608589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MelodyLagaltijos
-  m_EditorClassIdentifier: 
-  Path: event:/MelodyLagaltijos
-  Guid:
-    Data1: 1139438200
-    Data2: 1227728294
-    Data3: 267878800
-    Data4: 2136998448
-  Banks:
-  - {fileID: 7316831644809553479}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &8077979985285202095
 MonoBehaviour:
   m_ObjectHideFlags: 0

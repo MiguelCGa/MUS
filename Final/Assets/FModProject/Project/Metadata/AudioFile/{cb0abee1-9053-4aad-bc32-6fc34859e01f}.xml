@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{bae568c6-4c19-4729-9550-6c520c2334c7}">
+	<object class="AudioFile" id="{cb0abee1-9053-4aad-bc32-6fc34859e01f}">
 		<property name="assetPath">
 			<value>Ro/RoG.wav</value>
 		</property>
