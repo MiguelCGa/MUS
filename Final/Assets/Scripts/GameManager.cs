@@ -13,21 +13,18 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     string pauseInputAxis = "Pause";
 
-    static GameObject instance = null;
-    public static GameManager Instance = null;
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (instance != null) {
+    public static GameManager Instance { get; private set; }
+    void Awake() {
+        if (Instance != null) {
             Destroy(gameObject);
             return;
         }
-        instance = gameObject;
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
 
-    void Update() {
+    void Update()
+    {
         if (Input.GetButtonDown(pauseInputAxis)) {
             PauseGame();
         }
@@ -43,6 +40,7 @@ public class GameManager : MonoBehaviour
 
     public void GoToMainMenu() {
         SceneManager.LoadScene(mainMenuScene);
+        CharactersManager.Instance.ShutDown();
     }
 
     public void QuitGame() {

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,7 +19,8 @@ public enum Notes
     La,
     LaSust,
     Si,
-    DoUp
+    DoUp,
+    NONE
 }
 
 public class SoundManager : MonoBehaviour
@@ -28,9 +30,8 @@ public class SoundManager : MonoBehaviour
     void Start()
     {
         notes = new List<EventInstance>();
-        for(int i = 0; i< (int) Notes.DoUp+1 ;  i++)
-        {
-            notes.Add(RuntimeManager.CreateInstance("event:/"+ ((Notes)i).ToString()));
+        foreach (string note in Enum.GetNames(typeof(Notes))) {
+            notes.Add(RuntimeManager.CreateInstance("event:/" + note));
         }
     }
 

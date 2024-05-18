@@ -37,22 +37,22 @@ public class UIManager : MonoBehaviour
 
     DynamicMenu options = null;
     DynamicMenu pause = null;
-    [SerializeField] GameObject optionsPrefab;
-    [SerializeField] GameObject pausePrefab;
+    [SerializeField] GameObject optionsPrefab = null;
+    [SerializeField] GameObject pausePrefab = null;
 
-    static GameObject instance = null;
-    public static UIManager Instance = null;
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (instance != null) {
+    public static UIManager Instance { get; private set; }
+    void Awake() {
+        if (Instance != null) {
             Destroy(gameObject);
             return;
         }
-        instance = gameObject;
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
 
+    // Start is called before the first frame update
+    void Start()
+    {
         options = new DynamicMenu(optionsPrefab);
         pause = new DynamicMenu(pausePrefab);
     }
