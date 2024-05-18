@@ -4,22 +4,11 @@ using UnityEngine;
 
 public class SequenceHandler : MonoBehaviour
 {
+    CharactersManager charactersManager;
     Sequence currentSequence = null;    
-    public static SequenceHandler Instance { get; private set; }
-    void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
     // Start is called before the first frame update
     void Start() {
+        charactersManager = GetComponent<CharactersManager>();
         InputReader.Instance.onKeyPressed += PressKey;
         InputReader.Instance.onKeyReleased += ReleaseKey;
     }
@@ -29,7 +18,7 @@ public class SequenceHandler : MonoBehaviour
     {
         if (currentSequence != null) {
             if (currentSequence.IsCompleted()) {
-                currentSequence = CharactersManager.Instance.BefriendCurrentCharacter();
+                currentSequence = charactersManager.BefriendCurrentCharacter();
             }
         }
     }

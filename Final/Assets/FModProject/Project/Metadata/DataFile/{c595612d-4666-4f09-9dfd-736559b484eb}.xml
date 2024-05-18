@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{c595612d-4666-4f09-9dfd-736559b484eb}">
+		<property name="assetPath">
+			<value>Nahia/NahiaF.wav.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ebfa6374-9f24-47bc-9c97-41c37a20cbbd}</destination>
+		</relationship>
+	</object>
+</objects>

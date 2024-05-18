@@ -8,19 +8,7 @@ public class CharactersManager : MonoBehaviour
     [SerializeField] GameObject[] characters;
     List<GameObject> strangers = new List<GameObject>();
     List<GameObject> friends = new List<GameObject>();
-    public static CharactersManager Instance { get; private set; }
-    public void ShutDown() {
-        Instance = null;
-        Destroy(gameObject);
-    }
-    void Awake() {
-        if (Instance != null) {
-            Destroy(gameObject);
-            return;
-        }
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
+
     // Start is called before the first frame update
     void Start()
     {

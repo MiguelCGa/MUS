@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{6e52a480-2e66-44bf-a2f0-63a81fc1f140}">
+		<property name="assetPath">
+			<value>Pablo/PabloG#.wav.meta</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ebfa6374-9f24-47bc-9c97-41c37a20cbbd}</destination>
+		</relationship>
+	</object>
+</objects>

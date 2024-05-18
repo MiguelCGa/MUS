@@ -40,7 +40,6 @@ public class GameManager : MonoBehaviour
 
     public void GoToMainMenu() {
         SceneManager.LoadScene(mainMenuScene);
-        CharactersManager.Instance.ShutDown();
     }
 
     public void QuitGame() {
