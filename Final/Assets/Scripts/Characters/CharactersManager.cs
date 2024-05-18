@@ -28,6 +28,7 @@ public class CharactersManager : MonoBehaviour
             strangers.Add(character);
         }
         strangers.First().SetActive(true);
+        PlayCurrentMelody();
     }
 
     // Update is called once per frame
