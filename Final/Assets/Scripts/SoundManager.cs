@@ -15,6 +15,7 @@ public class SoundManager : MonoBehaviour
     {
         notes = new List<EventInstance>();
         foreach (string note in Enum.GetNames(typeof(Notes))) {
+            if(note!="NONE")
             notes.Add(RuntimeManager.CreateInstance("event:/" + note));
         }
     }

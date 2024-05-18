@@ -12,5 +12,6 @@ public enum Notes
     La,
     LaSust,
     Si,
-    DoUp
+    DoUp,
+    NONE
 }
