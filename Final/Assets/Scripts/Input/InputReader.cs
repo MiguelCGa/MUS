@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,6 +6,9 @@ public class InputReader : MonoBehaviour, Controls.IPianoActions
 {
     private Controls controls;
     public static InputReader Instance { get; private set; }
+
+    public Action<Notes> onKeyPressed { get; set; }
+    public Action<Notes> onKeyReleased { get; set; }
 
     void Awake()
     {
@@ -32,11 +36,11 @@ public class InputReader : MonoBehaviour, Controls.IPianoActions
         Debug.Log("Do");
         if(context.performed)
         {
-            Debug.Log("Pressed");
+            onKeyPressed?.Invoke(Notes.Do);
         }
         if (context.canceled)
         {
-            Debug.Log("Released");
+            onKeyReleased?.Invoke(Notes.Do);
         }
     }
 

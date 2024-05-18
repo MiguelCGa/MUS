@@ -1,5 +1,109 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7847742634173912410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sol/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7375627365308749012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fa/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6785178050586191464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Do
+  m_EditorClassIdentifier: 
+  Path: event:/Do
+  Guid:
+    Data1: 1502218960
+    Data2: 1078050982
+    Data3: -1118549833
+    Data4: -1068468399
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4105108577227260680}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &-6412153452559443006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Si
+  m_EditorClassIdentifier: 
+  Path: event:/Si
+  Guid:
+    Data1: 1747042107
+    Data2: 1101768181
+    Data3: 1267872685
+    Data4: -1356600057
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7244904074185519152}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
 --- !u!114 &-5842731886171018358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,11 +119,39 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638515689844656008
+  lastModified: 638516266029444524
   FileSizes:
   - Name: Desktop
-    Value: 808
+    Value: 1340
   Exists: 1
+--- !u!114 &-5772311851918998258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DoUp
+  m_EditorClassIdentifier: 
+  Path: event:/DoUp
+  Guid:
+    Data1: -109820396
+    Data2: 1081384487
+    Data3: -846074451
+    Data4: -2113392275
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4077439548022192442}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
 --- !u!114 &-5730883755523508440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,11 +167,219 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638515689844646023
+  lastModified: 638516266029419352
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1222
   Exists: 1
+--- !u!114 &-5311028692496713422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FaSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4105108577227260680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Do/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4077439548022192442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoUp/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3702046446875803938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ReSust
+  m_EditorClassIdentifier: 
+  Path: event:/ReSust
+  Guid:
+    Data1: -586613114
+    Data2: 1197197875
+    Data3: 446506142
+    Data4: 944345183
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3890117607486002381}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &-3056174089120542577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/La
+  m_EditorClassIdentifier: 
+  Path: event:/La
+  Guid:
+    Data1: 753650330
+    Data2: 1217057627
+    Data3: -413828673
+    Data4: -1211055985
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4444195017629344735}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &-2929778280330303264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-926978156153704232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mi
+  m_EditorClassIdentifier: 
+  Path: event:/Mi
+  Guid:
+    Data1: -1974108393
+    Data2: 1180558224
+    Data3: -1397573228
+    Data4: -269613708
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6589701277787811249}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &-97109727156863196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SolSust
+  m_EditorClassIdentifier: 
+  Path: event:/SolSust
+  Guid:
+    Data1: 280615947
+    Data2: 1115814725
+    Data3: 844668854
+    Data4: -2079951382
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9152199857404086958}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,15 +397,28 @@ MonoBehaviour:
   - {fileID: -5730883755523508440}
   - {fileID: 7068201143390433336}
   EditorEvents:
-  - {fileID: 3702980103430173198}
-  EditorParameters: []
+  - {fileID: -6785178050586191464}
+  - {fileID: -97109727156863196}
+  - {fileID: 2314772626139959494}
+  - {fileID: 4994090512841780349}
+  - {fileID: -5772311851918998258}
+  - {fileID: -926978156153704232}
+  - {fileID: -6412153452559443006}
+  - {fileID: 4323028665283644948}
+  - {fileID: 5998866940834257}
+  - {fileID: -3702046446875803938}
+  - {fileID: -3056174089120542577}
+  - {fileID: 3137340269192400682}
+  - {fileID: 3084977750520619720}
+  EditorParameters:
+  - {fileID: 8644162371553151640}
   MasterBanks:
   - {fileID: -5730883755523508440}
   StringsBanks:
   - {fileID: -5842731886171018358}
-  cacheTime: 638515689846666026
+  cacheTime: 638516266029444524
   cacheVersion: 131618
---- !u!114 &3702980103430173198
+--- !u!114 &5998866940834257
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,23 +428,260 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Piano
+  m_Name: event:/Re
   m_EditorClassIdentifier: 
-  Path: event:/Piano
+  Path: event:/Re
   Guid:
-    Data1: 1502218960
-    Data2: 1078050982
-    Data3: -1118549833
-    Data4: -1068468399
+    Data1: 2136452738
+    Data2: 1078209565
+    Data3: 1123179170
+    Data4: 242078448
   Banks:
   - {fileID: 7068201143390433336}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
-  Parameters: []
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8077979985285202095}
   MinDistance: 1
   MaxDistance: 20
-  Length: 23692
+  Length: 3692
+--- !u!114 &1635863801200185345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2314772626139959494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FaSust
+  m_EditorClassIdentifier: 
+  Path: event:/FaSust
+  Guid:
+    Data1: -1494055920
+    Data2: 1112155463
+    Data3: 1278442936
+    Data4: 298370875
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5311028692496713422}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &3084977750520619720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DoSust
+  m_EditorClassIdentifier: 
+  Path: event:/DoSust
+  Guid:
+    Data1: 290689748
+    Data2: 1084862255
+    Data3: 1346599613
+    Data4: 1860422115
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1635863801200185345}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &3137340269192400682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sol
+  m_EditorClassIdentifier: 
+  Path: event:/Sol
+  Guid:
+    Data1: 967394476
+    Data2: 1286762980
+    Data3: 1405844625
+    Data4: -1724434606
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7847742634173912410}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &3890117607486002381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ReSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4323028665283644948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LaSust
+  m_EditorClassIdentifier: 
+  Path: event:/LaSust
+  Guid:
+    Data1: -1687347102
+    Data2: 1279308717
+    Data3: -729358463
+    Data4: -234476651
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2929778280330303264}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &4444195017629344735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/La/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4994090512841780349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fa
+  m_EditorClassIdentifier: 
+  Path: event:/Fa
+  Guid:
+    Data1: 366274065
+    Data2: 1211345648
+    Data3: -1164091719
+    Data4: -1878209131
+  Banks:
+  - {fileID: 7068201143390433336}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7375627365308749012}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3692
+--- !u!114 &6589701277787811249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mi/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7068201143390433336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,8 +697,104 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Instrument.bank
   Name: Instrument
   StudioPath: bank:/Instrument
-  lastModified: 638515689846666026
+  lastModified: 638516266029281788
   FileSizes:
   - Name: Desktop
-    Value: 246304
+    Value: 114048
+  Exists: 1
+--- !u!114 &7244904074185519152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Si/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8077979985285202095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Re/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8644162371553151640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: parameter:/AndreaVol
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &9152199857404086958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SolSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1

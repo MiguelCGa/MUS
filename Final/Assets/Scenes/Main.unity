@@ -306,6 +306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 772781754}
   - component: {fileID: 772781755}
+  - component: {fileID: 772781756}
   m_Layer: 0
   m_Name: PianoPlayer
   m_TagString: Untagged
@@ -338,6 +339,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10729ddeff9b50c4fbfc86a7527f23e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &772781756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772781753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f21193d97459b094eb46665a9cce5314, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
