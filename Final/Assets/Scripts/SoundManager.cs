@@ -4,19 +4,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
-using System.Collections;
 
 public class SoundManager : MonoBehaviour
 {
     private List<EventInstance> notes;
     private List<EventInstance> playingNotes;
-
+    
     void Start()
     {
         notes = new List<EventInstance>();
         foreach (string note in Enum.GetNames(typeof(Notes))) {
-            if(note!="NONE")
-            notes.Add(RuntimeManager.CreateInstance("event:/" + note));
+            if (note != "NONE")
+                notes.Add(RuntimeManager.CreateInstance("event:/" + note));
         }
     }
 

@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMOD.Studio;
+using FMODUnity;
 
 public class Sequence : MonoBehaviour
 {
-    AudioSource melody;
-
+    [SerializeField] EventReference melody;
     [SerializeField][Range(0.0f, 1.0f)] float noteSizeMargin = 0.5f;
     [SerializeField][Range(0.0f, 1.0f)] float silenceMargin = 0.5f;
     [SerializeField] Notes[] partitureNotes;
@@ -30,10 +31,6 @@ public class Sequence : MonoBehaviour
     }
     float silenceTime = 0.0f;
 
-
-    void Start () {
-        melody = GetComponent<AudioSource>();
-    }
     private void HandleSilence() {
         if (inSilence) {
             silenceTime += Time.deltaTime;
@@ -54,6 +51,15 @@ public class Sequence : MonoBehaviour
         }
     }
 
+    private void CheckProgress() {
+        if (NoteTimeSuccess()) {
+            ++currentNoteIndex;
+        }
+        else {
+            Reset();
+        }
+    }
+
     void Update() {
         HandleSilence();
         HandlePressedNote();
@@ -68,16 +74,16 @@ public class Sequence : MonoBehaviour
     }
 
     public void OnKeyPressed(Notes note) {
+        if (pressedNote != Notes.NONE) {
+            CheckProgress();
+        }
         pressedNote = note;
         timePressed = 0.0f;
     }
     public void OnKeyReleased(Notes note) {
-        pressedNote = Notes.NONE;
-        if (NoteTimeSuccess()) {
-            ++currentNoteIndex;
-        }
-        else {
-            Reset();
+        if (note == pressedNote) {
+            pressedNote = Notes.NONE;
+            CheckProgress();
         }
     }
 
@@ -86,6 +92,6 @@ public class Sequence : MonoBehaviour
     }
 
     public void PlayMelody() {
-        melody.Play();
+        RuntimeManager.PlayOneShot(melody);
     }
 }
