@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PianoManager : MonoBehaviour
 {
+    [SerializeField] private ParticleSystem particles;
     private SoundManager soundManager;
     private Characters character;
     void Start()
@@ -17,6 +18,7 @@ public class PianoManager : MonoBehaviour
     private void PlayKey(Notes note)
     {
         soundManager.PlayNote(note);
+        particles.Emit(1);
     }
     private void ReleaseKey(Notes note)
     {
