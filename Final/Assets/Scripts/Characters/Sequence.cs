@@ -53,7 +53,7 @@ public class Sequence : MonoBehaviour
     }
 
     private void CheckProgress() {
-        if (NoteTimeSuccess()) {
+        if (pressedNote == currentNote && NoteTimeSuccess()) {
             ++currentNoteIndex;
         }
         else {
