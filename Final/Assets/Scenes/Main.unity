@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 1293183400}
   - component: {fileID: 1293183399}
   m_Layer: 0
-  m_Name: Squirrel Sprite Sheet
+  m_Name: Squirrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
