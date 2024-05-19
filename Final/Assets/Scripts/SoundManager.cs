@@ -8,11 +8,9 @@ using FMOD.Studio;
 public class SoundManager : MonoBehaviour
 {
     private Dictionary<Notes,EventInstance> playingNotes;
-    private List<string> parametersToUpdate;
     void Start()
     {
         playingNotes = new Dictionary<Notes,EventInstance>();
-        parametersToUpdate = new List<string>();
     }
 
     public void PlayNote(Notes note)

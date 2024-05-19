@@ -1,5 +1,7 @@
+using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +15,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     string pauseInputAxis = "Pause";
 
+    [SerializeField]
+    EventReference backgroundMusic;
+
     public static GameManager Instance { get; private set; }
     void Awake() {
         if (Instance != null) {
@@ -21,6 +26,11 @@ public class GameManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void Start()
+    {
+        RuntimeManager.PlayOneShot(backgroundMusic);
     }
 
     void Update()

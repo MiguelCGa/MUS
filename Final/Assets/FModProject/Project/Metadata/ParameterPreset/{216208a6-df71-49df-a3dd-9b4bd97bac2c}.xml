@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{216208a6-df71-49df-a3dd-9b4bd97bac2c}">
+		<property name="name">
+			<value>BackgroundVolume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b8bf3f01-a2b6-473b-8d1d-ac146df3c98e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4f604ab2-ee9f-4673-aa79-2110f3d57fcd}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4f604ab2-ee9f-4673-aa79-2110f3d57fcd}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

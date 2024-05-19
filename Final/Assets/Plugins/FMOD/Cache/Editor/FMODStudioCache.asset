@@ -63,10 +63,10 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638517146800750329
+  lastModified: 638517454189980132
   FileSizes:
   - Name: Desktop
-    Value: 1860
+    Value: 2028
   Exists: 1
 --- !u!114 &-8190650386957904406
 MonoBehaviour:
@@ -1135,6 +1135,34 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4105124512240696706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background
+  m_EditorClassIdentifier: 
+  Path: event:/Background
+  Guid:
+    Data1: 1122685477
+    Data2: 1308496635
+    Data3: -1125418843
+    Data4: -294061785
+  Banks:
+  - {fileID: 105236449585257869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 408810516573938529}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7500
 --- !u!114 &-4105108577227260680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1634,10 +1662,10 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Instrument.bank
   Name: Instrument
   StudioPath: bank:/Instrument
-  lastModified: 638517366062097926
+  lastModified: 638517418339959018
   FileSizes:
   - Name: Desktop
-    Value: 2220000
+    Value: 2216992
   Exists: 1
 --- !u!114 &-1088265514808825391
 MonoBehaviour:
@@ -1663,6 +1691,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-1058354401023180202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Success
+  m_EditorClassIdentifier: 
+  Path: event:/Success
+  Guid:
+    Data1: -197332204
+    Data2: 1167917889
+    Data3: -195561572
+    Data4: 281308549
+  Banks:
+  - {fileID: 105236449585257869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1350
 --- !u!114 &-926978156153704232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1946,17 +2001,20 @@ MonoBehaviour:
   - {fileID: 1661260235980411513}
   - {fileID: 8504913473653680337}
   - {fileID: -5813465159949943703}
+  - {fileID: -1058354401023180202}
+  - {fileID: -4105124512240696706}
   EditorParameters:
   - {fileID: 175559273563373182}
   - {fileID: -3625910770611783783}
   - {fileID: 5925260526751203561}
   - {fileID: 3837851451104291383}
   - {fileID: 8684068547497388519}
+  - {fileID: 5294760503019164392}
   MasterBanks:
   - {fileID: -8254256432654104872}
   StringsBanks:
   - {fileID: 6975067072081981847}
-  cacheTime: 638517366063609677
+  cacheTime: 638517454190913870
   cacheVersion: 131618
 --- !u!114 &5998866940834257
 MonoBehaviour:
@@ -2061,10 +2119,10 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Melodies.bank
   Name: Melodies
   StudioPath: bank:/Melodies
-  lastModified: 638517366063609677
+  lastModified: 638517454190913870
   FileSizes:
   - Name: Desktop
-    Value: 172736
+    Value: 276096
   Exists: 1
 --- !u!114 &175559273563373182
 MonoBehaviour:
@@ -2086,6 +2144,30 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &408810516573938529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Background/BackgroundVolume
+  m_EditorClassIdentifier: 
+  Name: BackgroundVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 2265446244
+    data2: 1868451697
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -3139,6 +3221,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &5294760503019164392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundVolume
+  m_EditorClassIdentifier: 
+  Name: BackgroundVolume
+  StudioPath: parameter:/BackgroundVolume
+  Min: 0
+  Max: 1
+  Default: 0.5
+  ID:
+    data1: 2265446244
+    data2: 1868451697
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5322792565030578004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3431,10 +3537,10 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638517146800770803
+  lastModified: 638517454190006472
   FileSizes:
   - Name: Desktop
-    Value: 1730
+    Value: 1856
   Exists: 1
 --- !u!114 &7068201143390433336
 MonoBehaviour:
