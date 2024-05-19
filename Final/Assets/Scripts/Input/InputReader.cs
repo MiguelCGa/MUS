@@ -15,7 +15,6 @@ public class InputReader : MonoBehaviour, Controls.IPianoActions
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {

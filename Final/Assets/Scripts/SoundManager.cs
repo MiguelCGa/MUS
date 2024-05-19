@@ -13,6 +13,16 @@ public class SoundManager : MonoBehaviour
         playingNotes = new Dictionary<Notes,EventInstance>();
     }
 
+    void OnDestroy()
+    {
+        foreach (EventInstance note in playingNotes.Values)
+        {
+            note.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            note.release();
+        }
+        playingNotes.Clear();
+    }
+
     public void PlayNote(Notes note)
     {
         //notes[(int)note].start();

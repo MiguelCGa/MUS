@@ -12,8 +12,10 @@ public class CharactersManager : MonoBehaviour
     float timeElapsedFromVictory = 0.0f;
     [SerializeField] PianoManager piano;
     [SerializeField] GameObject[] characters;
+    [SerializeField] GameObject end;
     List<GameObject> strangers = new List<GameObject>();
     List<GameObject> friends = new List<GameObject>();
+    [SerializeField] List<GameObject> singers = new List<GameObject>();
     bool victoriing = false;
 
     // Start is called before the first frame update
@@ -43,15 +45,18 @@ public class CharactersManager : MonoBehaviour
         
         friends.Add(strangers.First());
         strangers.RemoveAt(0);
-        friends.Last().GetComponent<Sequence>().enabled = false;
+        friends.Last().SetActive(false);
+        singers.First().SetActive(true);
+        singers.RemoveAt(0);
         piano.IncreaseCharacter();
+        PlayVictorySound();
 
         if (strangers.Count <= 0) {
+            end.SetActive(true);
             return null;
         }
         
         strangers.First().SetActive(true);
-        PlayVictorySound();
         return strangers.First().GetComponent<Sequence>();
     }
 
