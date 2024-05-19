@@ -86,8 +86,8 @@ public class Sequence : MonoBehaviour
             if (currentNoteIndex == partitureNotes.Length - 1 && NoteTimeSuccess()) {
                 completed = true;
             }
-            pressedNote = Notes.NONE;
             CheckProgress();
+            pressedNote = Notes.NONE;
         }
     }
 
