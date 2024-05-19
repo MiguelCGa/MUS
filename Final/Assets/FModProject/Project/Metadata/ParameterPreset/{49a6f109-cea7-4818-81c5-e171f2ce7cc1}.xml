@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{49a6f109-cea7-4818-81c5-e171f2ce7cc1}">
+		<property name="name">
+			<value>NahiaVol</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b8bf3f01-a2b6-473b-8d1d-ac146df3c98e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{764be05c-fc82-4a31-b487-d4e7ac1452f6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{764be05c-fc82-4a31-b487-d4e7ac1452f6}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

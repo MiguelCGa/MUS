@@ -1,5 +1,97 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9126515201510778968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Do/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8473527690744679261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Do/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8254256432654104872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FModProject/Project/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638517146800750329
+  FileSizes:
+  - Name: Desktop
+    Value: 1860
+  Exists: 1
+--- !u!114 &-8190650386957904406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoUp/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8131375892406375104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,6 +111,62 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1222
+  Exists: 1
+--- !u!114 &-8030800986260209448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Si
+  m_EditorClassIdentifier: 
+  Path: event:/Si
+  Guid:
+    Data1: 1747042107
+    Data2: 1101768181
+    Data3: 1267872685
+    Data4: -1356600057
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1634594767332552925}
+  - {fileID: 8352148221515315624}
+  - {fileID: 976913610143457558}
+  - {fileID: 6768400107468966260}
+  - {fileID: 6018195781268008776}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
+--- !u!114 &-7861022382441142249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FaSust/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &-7847742634173912410
 MonoBehaviour:
@@ -40,6 +188,30 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7548222229216006067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/La/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -68,6 +240,86 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-7239515245922440692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoUp/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7182618688896004807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ReSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7107313651834808999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DoUp
+  m_EditorClassIdentifier: 
+  Path: event:/DoUp
+  Guid:
+    Data1: -109820396
+    Data2: 1081384487
+    Data3: -846074451
+    Data4: -2113392275
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1254201280933765012}
+  - {fileID: 2121828189843200533}
+  - {fileID: -8190650386957904406}
+  - {fileID: 8547606336382681739}
+  - {fileID: -7239515245922440692}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
 --- !u!114 &-6785178050586191464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,6 +348,102 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &-6784323068457132376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fa/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6739119167100088508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FaSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6681355259823824715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mi/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6634684147091809898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaSust/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6610860008589270487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,6 +455,30 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Sol/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6544291262914659061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SolSust/AndreaVol
   m_EditorClassIdentifier: 
   Name: AndreaVol
   StudioPath: 
@@ -192,6 +564,78 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-6309986219259152510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sol/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6233563728386708046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/La/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5985405708645844415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SolSust/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-5842731886171018358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,6 +656,65 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1340
   Exists: 1
+--- !u!114 &-5836063324581859552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Re
+  m_EditorClassIdentifier: 
+  Path: event:/Re
+  Guid:
+    Data1: 2136452738
+    Data2: 1078209565
+    Data3: 1123179170
+    Data4: 242078448
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8118296792394823315}
+  - {fileID: -3752794230107653706}
+  - {fileID: 7148651908197314361}
+  - {fileID: -5420886762931526638}
+  - {fileID: 2864711111281379023}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
+--- !u!114 &-5813465159949943703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MelodyNahia
+  m_EditorClassIdentifier: 
+  Path: event:/MelodyNahia
+  Guid:
+    Data1: 2000642518
+    Data2: 1148754154
+    Data3: -421974593
+    Data4: -1256360396
+  Banks:
+  - {fileID: 105236449585257869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5772311851918998258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +791,62 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
+--- !u!114 &-5420886762931526638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Re/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5370995381609281145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DoSust
+  m_EditorClassIdentifier: 
+  Path: event:/DoSust
+  Guid:
+    Data1: 290689748
+    Data2: 1084862255
+    Data3: 1346599613
+    Data4: 1860422115
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2953682540411674003}
+  - {fileID: -2821930247448249791}
+  - {fileID: 1038934291995081317}
+  - {fileID: 1896165972608758370}
+  - {fileID: 9124506714196477411}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
 --- !u!114 &-5345013281082569960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,6 +895,78 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-5078815562184468378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5021925685451879943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaSust/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4857702174825614891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Do/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4659047959582048470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,6 +992,70 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 1923907109195264069}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
+--- !u!114 &-4625993703447048820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ReSust
+  m_EditorClassIdentifier: 
+  Path: event:/ReSust
+  Guid:
+    Data1: -586613114
+    Data2: 1197197875
+    Data3: 446506142
+    Data4: 944345183
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7182618688896004807}
+  - {fileID: 3133522299912951518}
+  - {fileID: 5322792565030578004}
+  - {fileID: -3084237455649313122}
+  - {fileID: 8657662948123059794}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
+--- !u!114 &-4392956773058920682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/La
+  m_EditorClassIdentifier: 
+  Path: event:/La
+  Guid:
+    Data1: 753650330
+    Data2: 1217057627
+    Data3: -413828673
+    Data4: -1211055985
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6233563728386708046}
+  - {fileID: -62914424325848565}
+  - {fileID: -4112214826032405695}
+  - {fileID: -7548222229216006067}
+  - {fileID: 2889726283018198200}
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
@@ -416,6 +1111,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
+--- !u!114 &-4112214826032405695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/La/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4105108577227260680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,6 +1183,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-3752794230107653706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Re/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3702046446875803938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,6 +1235,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &-3625910770611783783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: parameter:/NahiaVol
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3534277102948710077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,6 +1279,30 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3084237455649313122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ReSust/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -620,6 +1411,78 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-2888479131356781331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sol/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2821930247448249791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoSust/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2427667351357739479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mi/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2017655414328415040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,6 +1539,38 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
+--- !u!114 &-1982368768469916866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FaSust
+  m_EditorClassIdentifier: 
+  Path: event:/FaSust
+  Guid:
+    Data1: -1494055920
+    Data2: 1112155463
+    Data3: 1278442936
+    Data4: 298370875
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6739119167100088508}
+  - {fileID: 1272221376739465069}
+  - {fileID: 574012957897464526}
+  - {fileID: -7861022382441142249}
+  - {fileID: -609200541281822684}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
 --- !u!114 &-1742168423440621353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -696,6 +1591,74 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1360553480255003318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fa/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1298290181117511687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Instrument.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FModProject/Project/Build/Desktop/Instrument.bank
+  Name: Instrument
+  StudioPath: bank:/Instrument
+  lastModified: 638517167036410577
+  FileSizes:
+  - Name: Desktop
+    Value: 2229568
+  Exists: 1
+--- !u!114 &-1088265514808825391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mi/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -728,6 +1691,86 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &-875034276322088000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SolSust/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-794034756984631328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Do
+  m_EditorClassIdentifier: 
+  Path: event:/Do
+  Guid:
+    Data1: 1502218960
+    Data2: 1078050982
+    Data3: -1118549833
+    Data4: -1068468399
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8473527690744679261}
+  - {fileID: 2889639914804894087}
+  - {fileID: -9126515201510778968}
+  - {fileID: 5113853257737893258}
+  - {fileID: -4857702174825614891}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
+--- !u!114 &-609200541281822684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FaSust/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-497238160443855074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,6 +1855,62 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &-62914424325848565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/La/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-17668687671200302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Mi
+  m_EditorClassIdentifier: 
+  Path: event:/Mi
+  Guid:
+    Data1: -1974108393
+    Data2: 1180558224
+    Data3: -1397573228
+    Data4: -269613708
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2427667351357739479}
+  - {fileID: -6681355259823824715}
+  - {fileID: -1088265514808825391}
+  - {fileID: 6322419441067221673}
+  - {fileID: 3041510676896792387}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -825,35 +1924,39 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -6540859655772460264}
-  - {fileID: 4380295293672504592}
-  - {fileID: -8131375892406375104}
-  - {fileID: 2448170037309944069}
+  - {fileID: 6975067072081981847}
+  - {fileID: -1298290181117511687}
+  - {fileID: -8254256432654104872}
+  - {fileID: 105236449585257869}
   EditorEvents:
-  - {fileID: 1389521476948008871}
-  - {fileID: 4689917870001371420}
-  - {fileID: -4148507151692985661}
-  - {fileID: -2015725036683294818}
-  - {fileID: 6951167433901617478}
-  - {fileID: -2017655414328415040}
-  - {fileID: -4659047959582048470}
-  - {fileID: -497238160443855074}
-  - {fileID: -3015822988453304863}
-  - {fileID: -5729134519516506957}
-  - {fileID: 2324497138272910959}
-  - {fileID: -252968487196565747}
-  - {fileID: 100714715604976996}
-  - {fileID: 4690704984929334948}
-  - {fileID: 6659691100052780606}
-  - {fileID: 615904755781370401}
-  - {fileID: 5478856900724294566}
+  - {fileID: 3312965142842187451}
+  - {fileID: -1982368768469916866}
+  - {fileID: 7543743672138190761}
+  - {fileID: -7107313651834808999}
+  - {fileID: -17668687671200302}
+  - {fileID: -8030800986260209448}
+  - {fileID: 47913100759438106}
+  - {fileID: -5836063324581859552}
+  - {fileID: -4625993703447048820}
+  - {fileID: -4392956773058920682}
+  - {fileID: 7766371490649962680}
+  - {fileID: -794034756984631328}
+  - {fileID: -5370995381609281145}
+  - {fileID: 5901837648469346170}
+  - {fileID: 1661260235980411513}
+  - {fileID: 8504913473653680337}
+  - {fileID: -5813465159949943703}
   EditorParameters:
-  - {fileID: 7116808592051187447}
+  - {fileID: 175559273563373182}
+  - {fileID: -3625910770611783783}
+  - {fileID: 5925260526751203561}
+  - {fileID: 3837851451104291383}
+  - {fileID: 8684068547497388519}
   MasterBanks:
-  - {fileID: -8131375892406375104}
+  - {fileID: -8254256432654104872}
   StringsBanks:
-  - {fileID: -6540859655772460264}
-  cacheTime: 638516657039121425
+  - {fileID: 6975067072081981847}
+  cacheTime: 638517167036410577
   cacheVersion: 131618
 --- !u!114 &5998866940834257
 MonoBehaviour:
@@ -883,6 +1986,38 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &47913100759438106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LaSust
+  m_EditorClassIdentifier: 
+  Path: event:/LaSust
+  Guid:
+    Data1: -1687347102
+    Data2: 1279308717
+    Data3: -729358463
+    Data4: -234476651
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5078815562184468378}
+  - {fileID: -5021925685451879943}
+  - {fileID: -6634684147091809898}
+  - {fileID: 7235639538413362419}
+  - {fileID: 7422747890591072830}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
 --- !u!114 &100714715604976996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -911,6 +2046,74 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
+--- !u!114 &105236449585257869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Melodies.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FModProject/Project/Build/Desktop/Melodies.bank
+  Name: Melodies
+  StudioPath: bank:/Melodies
+  lastModified: 638516715384284414
+  FileSizes:
+  - Name: Desktop
+    Value: 212576
+  Exists: 1
+--- !u!114 &175559273563373182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: parameter:/AndreaVol
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &574012957897464526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FaSust/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &577355193165906677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -962,6 +2165,126 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &961281474080972077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SolSust/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &976913610143457558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Si/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1038934291995081317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoSust/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1254201280933765012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoUp/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1272221376739465069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FaSust/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1389521476948008871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -990,6 +2313,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
+--- !u!114 &1634594767332552925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Si/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1635863801200185345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,6 +2361,57 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &1661260235980411513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MelodyPablo
+  m_EditorClassIdentifier: 
+  Path: event:/MelodyPablo
+  Guid:
+    Data1: 1637376433
+    Data2: 1093937181
+    Data3: 187141257
+    Data4: 1011099344
+  Banks:
+  - {fileID: 105236449585257869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1896165972608758370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoSust/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &1923907109195264069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,6 +2432,30 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2121828189843200533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoUp/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1114,6 +2536,30 @@ MonoBehaviour:
   - Name: Desktop
     Value: 212576
   Exists: 1
+--- !u!114 &2573655143585550050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fa/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &2848479086786981585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1134,6 +2580,150 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2864711111281379023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Re/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2889639914804894087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Do/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2889726283018198200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/La/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2953682540411674003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoSust/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3022723631631916719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SolSust/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3041510676896792387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mi/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1166,6 +2756,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &3126288937246581143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sol/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3133522299912951518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ReSust/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3137340269192400682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1194,6 +2832,86 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &3312965142842187451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SolSust
+  m_EditorClassIdentifier: 
+  Path: event:/SolSust
+  Guid:
+    Data1: 280615947
+    Data2: 1115814725
+    Data3: 844668854
+    Data4: -2079951382
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6544291262914659061}
+  - {fileID: 3022723631631916719}
+  - {fileID: -5985405708645844415}
+  - {fileID: 961281474080972077}
+  - {fileID: -875034276322088000}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
+--- !u!114 &3344121167185267578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fa/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3837851451104291383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: parameter:/PabloVol
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3890117607486002381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,6 +2932,30 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4227002424887355420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sol/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1373,6 +3115,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3692
+--- !u!114 &5113853257737893258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Do/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5322792565030578004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ReSust/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &5478856900724294566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1420,6 +3210,105 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5901837648469346170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MelodyLagaltijos
+  m_EditorClassIdentifier: 
+  Path: event:/MelodyLagaltijos
+  Guid:
+    Data1: 1139438200
+    Data2: 1227728294
+    Data3: 267878800
+    Data4: 2136998448
+  Banks:
+  - {fileID: 105236449585257869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5925260526751203561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: parameter:/RoVol
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6018195781268008776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Si/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6322419441067221673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mi/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1475,6 +3364,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6768400107468966260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Si/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6951167433901617478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1503,6 +3416,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5573
+--- !u!114 &6975067072081981847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FModProject/Project/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638517146800770803
+  FileSizes:
+  - Name: Desktop
+    Value: 1730
+  Exists: 1
 --- !u!114 &7068201143390433336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1522,6 +3455,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 599360
+  Exists: 1
+--- !u!114 &7092705602470993157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sol/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &7116808592051187447
 MonoBehaviour:
@@ -1543,6 +3500,54 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7148651908197314361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Re/PabloVol
+  m_EditorClassIdentifier: 
+  Name: PabloVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1578407424
+    data2: 3661957504
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7235639538413362419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaSust/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1571,6 +3576,94 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &7422747890591072830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LaSust/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7543743672138190761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fa
+  m_EditorClassIdentifier: 
+  Path: event:/Fa
+  Guid:
+    Data1: 366274065
+    Data2: 1211345648
+    Data3: -1164091719
+    Data4: -1878209131
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6784323068457132376}
+  - {fileID: 3344121167185267578}
+  - {fileID: 8161810573157961169}
+  - {fileID: 2573655143585550050}
+  - {fileID: -1360553480255003318}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
+--- !u!114 &7766371490649962680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sol
+  m_EditorClassIdentifier: 
+  Path: event:/Sol
+  Guid:
+    Data1: 967394476
+    Data2: 1286762980
+    Data3: 1405844625
+    Data4: -1724434606
+  Banks:
+  - {fileID: -1298290181117511687}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6309986219259152510}
+  - {fileID: 3126288937246581143}
+  - {fileID: 7092705602470993157}
+  - {fileID: -2888479131356781331}
+  - {fileID: 4227002424887355420}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5573
 --- !u!114 &8077979985285202095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1591,6 +3684,78 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8118296792394823315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Re/AndreaVol
+  m_EditorClassIdentifier: 
+  Name: AndreaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2359630410
+    data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8161810573157961169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fa/RoVol
+  m_EditorClassIdentifier: 
+  Name: RoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1797767461
+    data2: 3132737139
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8352148221515315624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Si/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -1619,6 +3784,57 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &8504913473653680337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MelodyRo
+  m_EditorClassIdentifier: 
+  Path: event:/MelodyRo
+  Guid:
+    Data1: 1245148624
+    Data2: 1259974389
+    Data3: -239734084
+    Data4: 1689251847
+  Banks:
+  - {fileID: 105236449585257869}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8547606336382681739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoUp/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &8644162371553151640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1643,6 +3859,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &8657662948123059794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ReSust/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8684068547497388519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MateoVol
+  m_EditorClassIdentifier: 
+  Name: MateoVol
+  StudioPath: parameter:/MateoVol
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2766682679
+    data2: 3324875204
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &8790875237568799873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1663,6 +3927,30 @@ MonoBehaviour:
   ID:
     data1: 2359630410
     data2: 1833337328
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &9124506714196477411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DoSust/NahiaVol
+  m_EditorClassIdentifier: 
+  Name: NahiaVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1695395380
+    data2: 3851571221
   Type: 0
   IsGlobal: 1
   Labels: []

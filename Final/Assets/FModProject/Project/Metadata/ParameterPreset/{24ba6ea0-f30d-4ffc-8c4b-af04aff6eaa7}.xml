@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{24ba6ea0-f30d-4ffc-8c4b-af04aff6eaa7}">
+		<property name="name">
+			<value>RoVol</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b8bf3f01-a2b6-473b-8d1d-ac146df3c98e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{860e5382-77bb-4787-964c-1ead51fe8d06}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{860e5382-77bb-4787-964c-1ead51fe8d06}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

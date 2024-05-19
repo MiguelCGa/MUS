@@ -9,6 +9,7 @@ public class SequenceHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
         charactersManager = GetComponent<CharactersManager>();
+        currentSequence = charactersManager.getCurrentCharacter();
         InputReader.Instance.onKeyPressed += PressKey;
         InputReader.Instance.onKeyReleased += ReleaseKey;
     }

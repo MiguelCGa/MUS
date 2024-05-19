@@ -51,8 +51,8 @@ MonoBehaviour:
       Data3: -239734084
       Data4: 1689251847
     Path: event:/MelodyRo
-  noteSizeMargin: 0.1
-  silenceMargin: 0.5
+  noteSizeMargin: 1.5
+  silenceMargin: 1
   partitureNotes: 09000000070000000500000007000000090000000b00000004000000
   partitureDurations:
   - 1
@@ -94,9 +94,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5766256097050059642}
-  - {fileID: 6283001533256973123}
   - {fileID: 4060418522995705640}
   - {fileID: 4806884034966859935}
+  - {fileID: 6283001533256973123}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6782376155578257990
@@ -111,11 +111,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8c31a6eb62faa84dbb3b378ce9efae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  piano: {fileID: 0}
   characters:
   - {fileID: 6699557306805509340}
-  - {fileID: 2751767453992059249}
   - {fileID: 2150931095593305700}
   - {fileID: 1201134343457970363}
+  - {fileID: 2751767453992059249}
 --- !u!114 &4942501634894870344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,8 +180,8 @@ MonoBehaviour:
       Data3: 267878800
       Data4: 2136998448
     Path: event:/MelodyLagaltijos
-  noteSizeMargin: 0.1
-  silenceMargin: 0.5
+  noteSizeMargin: 1.5
+  silenceMargin: 1
   partitureNotes: 010000000100000001000000090000000900000009000000020000000200000002000000070000000700000007000000
   partitureDurations:
   - 0.125
@@ -246,8 +247,8 @@ MonoBehaviour:
       Data3: -421974593
       Data4: -1256360396
     Path: event:/MelodyNahia
-  noteSizeMargin: 0.15
-  silenceMargin: 0.5
+  noteSizeMargin: 1.5
+  silenceMargin: 1
   partitureNotes: 0200000004000000090000000b0000000600000004000000020000000100000002000000
   partitureDurations:
   - 0.3
@@ -310,8 +311,8 @@ MonoBehaviour:
       Data3: 187141257
       Data4: 1011099344
     Path: event:/MelodyPablo
-  noteSizeMargin: 0.4
-  silenceMargin: 0.5
+  noteSizeMargin: 1.5
+  silenceMargin: 1
   partitureNotes: 00000000020000000500000007000000
   partitureDurations:
   - 0.75

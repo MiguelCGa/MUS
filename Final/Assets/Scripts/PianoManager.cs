@@ -3,12 +3,23 @@ using UnityEngine;
 public class PianoManager : MonoBehaviour
 {
     private SoundManager soundManager;
+    private Characters character;
     void Start()
     {
         soundManager = GetComponent<SoundManager>();
 
         InputReader.Instance.onKeyPressed += PlayKey;
         InputReader.Instance.onKeyReleased += ReleaseKey;
+
+        character = Characters.Ardilla;
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            IncreaseCharacter();
+        }
     }
 
     private void PlayKey(Notes note)
@@ -18,5 +29,14 @@ public class PianoManager : MonoBehaviour
     private void ReleaseKey(Notes note)
     {
         soundManager.ReleaseNote(note);
+    }
+
+    public void IncreaseCharacter()
+    {
+        character++;
+        soundManager.UpdateIntensity(character);
+        if(character == Characters.Mateo) { 
+            IncreaseCharacter();
+        }
     }
 }

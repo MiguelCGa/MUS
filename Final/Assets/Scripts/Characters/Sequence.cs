@@ -7,8 +7,8 @@ using FMODUnity;
 public class Sequence : MonoBehaviour
 {
     [SerializeField] EventReference melody;
-    [SerializeField][Range(0.0f, 1.0f)] float noteSizeMargin = 0.5f;
-    [SerializeField][Range(0.0f, 1.0f)] float silenceMargin = 0.5f;
+    [SerializeField] [Range(0.1f,5)] float noteSizeMargin = 0.5f;
+    [SerializeField] [Range(0.1f,5)] float silenceMargin = 0.5f;
     [SerializeField] Notes[] partitureNotes;
     [SerializeField] float[] partitureDurations;
     int currentNoteIndex = 0;

@@ -7,17 +7,12 @@ using FMOD.Studio;
 
 public class SoundManager : MonoBehaviour
 {
-    private List<EventInstance> notes;
     private Dictionary<Notes,EventInstance> playingNotes;
-
+    private List<string> parametersToUpdate;
     void Start()
     {
-        notes = new List<EventInstance>();
         playingNotes = new Dictionary<Notes,EventInstance>();
-        foreach (string note in Enum.GetNames(typeof(Notes))) {
-            if (note != "NONE")
-                notes.Add(RuntimeManager.CreateInstance("event:/" + note));
-        }
+        parametersToUpdate = new List<string>();
     }
 
     public void PlayNote(Notes note)
@@ -38,4 +33,10 @@ public class SoundManager : MonoBehaviour
             playingNotes.Remove(note);
         }
     }
+
+    public void UpdateIntensity(Characters character)
+    {
+        RuntimeManager.StudioSystem.setParameterByName(character.ToString() + "Vol",1);
+    }
+
 }

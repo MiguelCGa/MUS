@@ -5,24 +5,19 @@ using UnityEngine;
 
 public class CharactersManager : MonoBehaviour
 {
+    [SerializeField] PianoManager piano;
     [SerializeField] GameObject[] characters;
     List<GameObject> strangers = new List<GameObject>();
     List<GameObject> friends = new List<GameObject>();
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         foreach (var character in characters) {
             strangers.Add(character);
         }
         strangers.First().SetActive(true);
         PlayCurrentMelody();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public Sequence BefriendCurrentCharacter() {
@@ -33,6 +28,7 @@ public class CharactersManager : MonoBehaviour
         friends.Add(strangers.First());
         strangers.RemoveAt(0);
         friends.Last().GetComponent<Sequence>().enabled = false;
+        piano.IncreaseCharacter();
 
         if (strangers.Count <= 0) {
             return null;
@@ -48,5 +44,12 @@ public class CharactersManager : MonoBehaviour
         if (strangers.Count > 0) {
             strangers.First().GetComponent<Sequence>().PlayMelody();
         }
+    }
+
+    public Sequence getCurrentCharacter()
+    {
+        if(strangers.Count >0)
+        return strangers.First().GetComponent<Sequence>();
+        return null;
     }
 }
