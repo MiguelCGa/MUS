@@ -1634,10 +1634,10 @@ MonoBehaviour:
   Path: Assets/FModProject/Project/Build/Desktop/Instrument.bank
   Name: Instrument
   StudioPath: bank:/Instrument
-  lastModified: 638517167036410577
+  lastModified: 638517202311661550
   FileSizes:
   - Name: Desktop
-    Value: 2229568
+    Value: 2229760
   Exists: 1
 --- !u!114 &-1088265514808825391
 MonoBehaviour:
@@ -1956,7 +1956,7 @@ MonoBehaviour:
   - {fileID: -8254256432654104872}
   StringsBanks:
   - {fileID: 6975067072081981847}
-  cacheTime: 638517167036410577
+  cacheTime: 638517202311661550
   cacheVersion: 131618
 --- !u!114 &5998866940834257
 MonoBehaviour:
