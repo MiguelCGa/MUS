@@ -30,7 +30,7 @@ public class Sequence : MonoBehaviour
         }
     }
     float silenceTime = 0.0f;
-    bool complete = false;
+    bool completed = false;
 
     private void HandleSilence() {
         if (inSilence) {

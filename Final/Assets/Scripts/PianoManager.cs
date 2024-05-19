@@ -14,14 +14,6 @@ public class PianoManager : MonoBehaviour
         character = Characters.Ardilla;
     }
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            IncreaseCharacter();
-        }
-    }
-
     private void PlayKey(Notes note)
     {
         soundManager.PlayNote(note);
