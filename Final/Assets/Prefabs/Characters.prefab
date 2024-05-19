@@ -111,6 +111,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8c31a6eb62faa84dbb3b378ce9efae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  victorySound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: event:/Success
+  timeFromVictoryToMelody: 1.5
   piano: {fileID: 0}
   characters:
   - {fileID: 6699557306805509340}
