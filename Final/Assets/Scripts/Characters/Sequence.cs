@@ -30,6 +30,7 @@ public class Sequence : MonoBehaviour
         }
     }
     float silenceTime = 0.0f;
+    bool complete = false;
 
     private void HandleSilence() {
         if (inSilence) {
@@ -82,13 +83,16 @@ public class Sequence : MonoBehaviour
     }
     public void OnKeyReleased(Notes note) {
         if (note == pressedNote) {
+            if (currentNoteIndex == partitureNotes.Length - 1 && NoteTimeSuccess()) {
+                completed = true;
+            }
             pressedNote = Notes.NONE;
             CheckProgress();
         }
     }
 
     public bool IsCompleted() {
-        return currentNoteIndex == partitureNotes.Length - 1 && NoteTimeSuccess();
+        return completed;
     }
 
     public void PlayMelody() {
