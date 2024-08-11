@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using UnityEngine.TextCore.Text;
 
 public class SoundManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class SoundManager : MonoBehaviour
 
     void OnDestroy()
     {
+        ResetIntensity();
         FMODUnity.RuntimeManager.GetBus("Bus:/").stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         playingNotes.Clear();
     }
@@ -41,6 +43,14 @@ public class SoundManager : MonoBehaviour
     public void UpdateIntensity(Characters character)
     {
         RuntimeManager.StudioSystem.setParameterByName(character.ToString() + "Vol",1);
+    }
+
+    private void ResetIntensity()
+    {
+        foreach (string character in Enum.GetNames(typeof(Characters)))
+        {
+            RuntimeManager.StudioSystem.setParameterByName(character.ToString() + "Vol", 0);
+        }
     }
 
 }
