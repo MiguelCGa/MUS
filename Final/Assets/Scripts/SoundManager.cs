@@ -15,11 +15,7 @@ public class SoundManager : MonoBehaviour
 
     void OnDestroy()
     {
-        foreach (EventInstance note in playingNotes.Values)
-        {
-            note.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-            note.release();
-        }
+        FMODUnity.RuntimeManager.GetBus("Bus:/").stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         playingNotes.Clear();
     }
 
