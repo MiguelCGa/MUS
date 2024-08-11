@@ -15,6 +15,12 @@ public class PianoManager : MonoBehaviour
         character = Characters.Ardilla;
     }
 
+    void OnDestroy()
+    {
+        InputReader.Instance.onKeyPressed -= PlayKey;
+        InputReader.Instance.onKeyReleased -= ReleaseKey;
+    }
+
     private void PlayKey(Notes note)
     {
         soundManager.PlayNote(note);
