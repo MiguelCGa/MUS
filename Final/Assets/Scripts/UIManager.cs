@@ -62,6 +62,7 @@ public class UIManager : MonoBehaviour
     }
 
     public void QuitGame() {
+        FMODUnity.RuntimeManager.GetBus("Bus:/").stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         GameManager.Instance.QuitGame();
     }
 
