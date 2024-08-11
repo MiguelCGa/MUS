@@ -137,8 +137,30 @@
                 },
                 {
                     "name": "",
+                    "id": "89cb38f5-467a-4590-ab45-43c66ccf19b9",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Do",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c6119fe3-a5ff-41e5-87bc-05d44e31a4fb",
                     "path": "<MidiDevice>/note061",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DoSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "884fbf87-eb2d-4bd1-80a4-1b193bcea4f7",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -159,8 +181,30 @@
                 },
                 {
                     "name": "",
+                    "id": "0460596c-7ffc-4c7d-8659-41c6ec10dd1c",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Re",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "146ff1dd-4b0f-435a-b77b-a1aadac547df",
                     "path": "<MidiDevice>/note063",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "827f10c8-c980-4616-b2c8-2bc82479a9f7",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -181,8 +225,30 @@
                 },
                 {
                     "name": "",
+                    "id": "50acc5da-cdfa-4f9e-9763-23ec95fa9633",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mi",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "699c4db2-5bf7-4888-b3d6-aa65174b18c9",
                     "path": "<MidiDevice>/note065",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fa",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4746af3b-20d3-4996-ace2-a8c916949b60",
+                    "path": "<Keyboard>/v",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -203,8 +269,30 @@
                 },
                 {
                     "name": "",
+                    "id": "740a55a4-0875-4689-82ec-6204a3f2d7b9",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FaSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "48f10cf8-f4cf-4833-b837-6a805c5e5c76",
                     "path": "<MidiDevice>/note067",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sol",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39d4f19c-df5e-4aeb-9340-233dfa522fc3",
+                    "path": "<Keyboard>/b",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -225,8 +313,30 @@
                 },
                 {
                     "name": "",
+                    "id": "9276d4ae-848c-46c7-a6a8-42e2a0630c04",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SolSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "6b1af0f0-b4a1-4fb3-a0aa-84d2fa964d83",
                     "path": "<MidiDevice>/note069",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "La",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e79072a-0619-4565-be2b-72ca2c407ac4",
+                    "path": "<Keyboard>/n",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -247,6 +357,17 @@
                 },
                 {
                     "name": "",
+                    "id": "0b5b4f51-74ac-4fc7-9dd1-bf66e5655cca",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Si",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "473bdf3d-20dd-4713-9c9b-4dbd7b2aa0d1",
                     "path": "<MidiDevice>/note072",
                     "interactions": "",
@@ -258,8 +379,30 @@
                 },
                 {
                     "name": "",
+                    "id": "724399f4-350c-467a-9156-90e93ca859ef",
+                    "path": "<Keyboard>/comma",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Do1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3b63ef39-d9d8-44ba-b9e9-e65aa8bb4306",
                     "path": "<MidiDevice>/note070",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LaSust",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "467bdcb5-42d2-4b5f-a6d7-b973ae9a87ea",
+                    "path": "<Keyboard>/j",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
